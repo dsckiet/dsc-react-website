@@ -1,0 +1,44 @@
+body{
+  font-family: Monsterrat;
+}
+
+.landing-alert {
+  margin-bottom: 0;
+}
+
+.landing-header {
+  background-size: cover;
+  min-height: 570px;
+}
+
+.landing-header .motto {
+  padding-top: 8%;
+  text-align: left;
+  z-index: 3;
+}
+
+.landing-section {
+  padding: 100px 0;
+}
+
+.landing-section .btn-simple {
+  padding: 0;
+}
+
+.landing-section .column {
+  padding: 0 75px 0 25px;
+}
+
+.parallax {
+  /* The image used */
+    background-image: url("../img/student-javascript-knowledge.png");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
