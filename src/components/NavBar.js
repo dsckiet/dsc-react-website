@@ -38,14 +38,14 @@ export default class NavBar extends Component {
                 </Link>
               </li>
               <li>
-                <Link to="/#about" className="btn btn-simple">
+                <Link smooth to="/#about" className="btn btn-simple">
                   About
                 </Link>
               </li>
               <li>
-                <a href="/#guidelines" className="btn btn-simple">
+                <Link smooth to="/#guidelines" className="btn btn-simple">
                   Guidelines
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/events" className="btn btn-simple">
