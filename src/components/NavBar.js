@@ -38,12 +38,12 @@ export default class NavBar extends Component {
                 </Link>
               </li>
               <li>
-                <Link to="/home#about" className="btn btn-simple">
+                <Link to="/#about" className="btn btn-simple">
                   About
                 </Link>
               </li>
               <li>
-                <a href="#guidelines" className="btn btn-simple">
+                <a href="/#guidelines" className="btn btn-simple">
                   Guidelines
                 </a>
               </li>
