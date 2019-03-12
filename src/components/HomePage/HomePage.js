@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./HomePage.css";
 import NavBar from "../NavBar";
+import Footer from "../Footer";
 
 class HomePage extends Component {
   render() {
@@ -196,6 +197,7 @@ class HomePage extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

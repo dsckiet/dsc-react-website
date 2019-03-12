@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Events.css";
-import { HashLink as Link } from "react-router-hash-link";
-import NavBar from "./NavBar";
+import NavBar from "../NavBar";
+import Footer from "../Footer";
 
 export default class Events extends Component {
   render() {
@@ -60,6 +60,7 @@ export default class Events extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
